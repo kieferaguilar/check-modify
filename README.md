@@ -18,6 +18,7 @@ Validators generate functions that return a `String` value transformation of the
 ### Function signatures
 
 **Checker:** `function(any) --> function(String) --> Boolean`
+
 **Modifier:** `function(any) --> function(String) --> String`
 
 ### Example
