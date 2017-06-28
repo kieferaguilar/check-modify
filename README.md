@@ -34,7 +34,7 @@ const modifier = CharacterLimitModifier(5);
 console.log( modifier("abc")     ); // prints "abc"
 console.log( modifier("abcdefg") ); // prints "abcde"
 ```
-**Note:** Currently, there is no option to reference a minified version directly. Rather, use import the modules you need.
+**Note:** Currently, there is no option to reference a minified version directly. Rather, import/require the modules you need.
 
 ## Quick reference
 
