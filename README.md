@@ -7,6 +7,12 @@ Simple text checkers and modifiers for forms.
 npm install --save check-modify
 ```
 
+### If you are using React
+
+You may be interested in using these checkers/modifiers with the `validating` higher order component from the [react-validating-controlled](https://www.npmjs.com/package/react-validating-controlled) NPM package.
+
+Using both, you can quickly create custom components for text inputs/areas, selects, radios, and checkboxes, as well as more complicated custom components.
+
 ## What's a checker/modifier?
 
 Checkers and modifiers are **function generators** of functions that take a single `String` argument (the text to check or modify).
