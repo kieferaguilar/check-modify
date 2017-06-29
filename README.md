@@ -7,6 +7,12 @@ Simple text checkers and modifiers for forms.
 npm install --save check-modify
 ```
 
+### If you are using React
+
+You may be interested in using these checkers/modifiers with the `validating` higher order component from the [react-validating-controlled](https://www.npmjs.com/package/react-validating-controlled) NPM package.
+
+Using both, you can quickly create custom components for text inputs/areas, selects, radios, and checkboxes, as well as more complicated custom components.
+
 ## What's a checker/modifier?
 
 Checkers and modifiers are **function generators** of functions that take a single `String` argument (the text to check or modify).
@@ -18,6 +24,7 @@ Validators generate functions that return a `String` value transformation of the
 ### Function signatures
 
 **Checker:** `function(any) --> function(String) --> Boolean`
+
 **Modifier:** `function(any) --> function(String) --> String`
 
 ### Example
@@ -33,7 +40,7 @@ const modifier = CharacterLimitModifier(5);
 console.log( modifier("abc")     ); // prints "abc"
 console.log( modifier("abcdefg") ); // prints "abcde"
 ```
-**Note:** Currently, there is no option to reference a minified version directly. Rather, use import the modules you need.
+**Note:** Currently, there is no option to reference a minified version directly. Rather, import/require the modules you need.
 
 ## Quick reference
 
