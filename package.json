@@ -1,6 +1,6 @@
 {
   "name": "check-modify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple text checkers and modifiers for forms",
   "main": "lib/index.js",
   "repository": {
