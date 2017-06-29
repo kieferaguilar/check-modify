@@ -1,6 +1,8 @@
 # check-modify
 Simple text checkers and modifiers for forms.
 
+[![Build Status](https://circleci.com/gh/kieferaguilar/check-modify.svg?style=shield&circle-token=6ad4e640b3cd323acb1d04fa8c1404188c393a95)](https://circleci.com/gh/kieferaguilar/check-modify)
+
 ### Installation
 
 ```
@@ -121,7 +123,7 @@ You will want to clone the repository and `npm install`.
 
 `npm test`: Tests all modules
 
-Branch pushes to Github will trigger CI tests on [CircleCI](http://circleci.com).
+Branch pushes to Github will trigger CI tests on [CircleCI](https://circleci.com/gh/kieferaguilar/check-modify).
 
 ### Building lib
 
