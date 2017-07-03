@@ -1,6 +1,6 @@
 {
   "name": "check-modify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple text checkers and modifiers for forms",
   "main": "lib/index.js",
   "repository": {
@@ -57,5 +57,8 @@
     "transformIgnorePatterns": [
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
     ]
+  },
+  "dependencies": {
+    "es6-set": "^0.1.5"
   }
 }

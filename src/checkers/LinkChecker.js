@@ -1,4 +1,5 @@
 import EmailChecker from './EmailChecker';
+import Set from 'es6-set';
 
 /**
  * Generates link checker
